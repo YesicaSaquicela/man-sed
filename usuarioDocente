@@ -12,12 +12,13 @@
 \usepackage{multirow}
 
 
-\title{documentacion Docente Documentation}
-\date{February 20, 2013}
+
+\title{MANUAL DE DOCENTE DE EL SISTEMA DE EVALUACIÓN DE DESEMPEÑO DOCENTE DE LA UNIVERSIDAD NACIONAL DE LOJA}
+\date{March 06, 2013}
 \release{1}
-\author{autor}
+\author{INGENIERO MILTON LABANDA}
 \newcommand{\sphinxlogo}{}
-\renewcommand{\releasename}{Release}
+\renewcommand{\releasename}{Versión}
 \makeindex
 
 \makeatletter
@@ -111,159 +112,237 @@
 \makeatother
 
 \begin{document}
-
+\renewcommand{\contentsname}{Indice} 
+\renewcommand{\partname}{Parte} 
+\renewcommand{\chaptername}{Capítulo} 
+\renewcommand{\appendixname}{Apéndice} 
+\renewcommand{\bibname}{Bibliografía} 
+\renewcommand{\figurename}{Figura} 
+\renewcommand{\listfigurename}{Indice de figuras}  
+\renewcommand{\tablename}{Tabla} 
+\renewcommand{\listtablename}{Indice de tablas}
 \maketitle
 \tableofcontents
 \phantomsection\label{index::doc}
+\listoffigures
 
-
-Contents:
 
 
 \chapter{Introducción}
 \label{manualdocente:introduccion}\label{manualdocente:welcome-to-documentacio-docente-s-documentation}\label{manualdocente::doc}
-El sistema de Evaluacion para docentes tiene como objetivo:
-Automatizar el proceso de evaluación de desempeño de los docentes.
+
+El presente Manual del Sistema de Evaluación del Desempeño Docente (SEDD) tiene como principal objetivo servir
+de guía y de consulta para las personas involucradas en el proceso de evaluación. En él se contemplan todos y cada
+uno de los aspectos que giran en torno al Sistema de Evaluación del Desempeño Docente en la Universidad Nacional
+de Loja.\\
+
+El SEDD, constituye una herramienta de gran utilidad y riqueza tanto para la propia Institución como para las personas
+que participan del mismo, evaluadores y evaluados.\\
+
+La evaluación de un docente a traves de un sistema, es una operación sistemática, integrada en la actividad educativa con el objetivo de conseguir su mejoramiento continuo, mediante el conocimiento lo más exacto posible del alumno, directivos y hasta el mismo docente hacia un docente  en todos los aspectos de su personalidad, aportando una información pertiente para que el proceso esudcativo  logre sus objetivos fundamentales y confrontar los fijados con los realmente alcanzados
+
+El caracter de perfeccionamiento surge cuando el docente es capaz de autoevaluar su desempeño, no teme a sus
+errores sino que aprende de ellos y toma mas concientemente su trabajo y es asi como surge la incontenible necesidad
+de autoperfeccionamiento.\\
+
+El sistema de Evaluación para docentes tiene como objetivo:
+\begin{itemize}
+\item Caracterizar al docente con sus principales aciertos y desaciertos en un periodo determinado, de modo que sirva a los directivos a erradicar dicha inperfecciones y tomar acciones de superacion.
+\item Automatizar el proceso de evaluación de desempeño de los docentes.
+\end{itemize}
+Por tal razon, el objetivo principal de este manual, es guiar de manera clara, sencilla y precisa al usuario, para que cumpla con su compromiso como es el de evaluar a los docentes.
 
 
 \chapter{Sistema de Evaluación de Desempeño de los Docentes (SEDD)}
 \label{manualdocente:sistema-de-evaluacion-de-desempeno-de-los-docentes-sedd}
 
 \section{Acceso al sistema.}
-\label{manualdocente:acceso-al-sistema}\begin{enumerate}
-\item {} 
-Al ingresar a la página de Evaluación de Desempeño de los Docentes. Ver figura 1.
-\begin{figure}[htbp]
-\centering
-
-\includegraphics[width=0.500\linewidth]{20.png}
-\end{figure}
-
-figura 1.
-
-\item {} 
-El docente se debe registrar ingresando su nombre de usuario el cual sera su numero de cedula; y su contraseña en cada casilla correspondiente. Ver figura 2.
-\begin{figure}[htbp]
-\centering
-
-\includegraphics[width=0.500\linewidth]{30.png}
-\end{figure}
-
-figura 2.
-
-\end{enumerate}
+\label{manualdocente:acceso-al-sistema}
 \begin{enumerate}
-\setcounter{enumi}{1}
 \item {} 
-Una vez que el sistemas valide sus datos, ingresa al sistema, este presenta la siguiente pantalla. Ver figura 3.
+Al ingresar a la página de Evaluación de Desempeño de los Docentes se presentará la siguiente portada. Ver figura 2.1.
+\begin{figure}[htbp]
+\centering
+
+\includegraphics[width=0.800\linewidth]{20.png}
+
+\caption{Portada del sistema}
+
+\end{figure}
+
+
+\item {} 
+El docente se debe registrar ingresando su nombre de usuario el cual sera su número de cedula; y su contraseña en cada casilla correspondiente. Ver figura 2.2.
+
+
+\begin{figure}[htbp]
+\centering
+
+\includegraphics[width=0.980\linewidth]{30.png}
+
+\caption{Registro del usuario}
+\end{figure}
+
+
 
 \end{enumerate}
-\begin{quote}
+
+
+
+\section{Encuestas dirigidas a los docentes para la Evaluación del Desempeño Docente.}
+
+\label{manualdocente:responder-evaluación}
+\begin{enumerate}
+
+\item {} 
+Una vez que el sistemas valide sus datos, ingresa al sistema, este presenta la siguiente pantalla. Ver figura 2.3.
+
+
 \begin{itemize}
 \item {} 
-\textbf{Encuestas para autoevaluación del docente.-} Se encuntra la respectiva evaluación a realizar por parte del docente.
+\textbf{Encuestas para autoevaluación del docente.-} Se encuentra la respectiva evaluación a realizar por parte del docente.
 
 \item {} 
 \textbf{Nombre de Usuario.-} En la esquina superior derecha se observa el nombre del docente del Sistema de Evaluación de Desempeño de los Docentes (SEDD)
 
 \item {} 
-\textbf{Salir.-} Opcion para cerrar la sesión actual.
+\textbf{Salir.-} Opción para cerrar la sesión actual.
+
+
 
 \end{itemize}
+
+
+\begin{figure}[htbp]
+\centering
+
+\includegraphics[width=0.980\linewidth]{1.png}
+
+\caption{Encuestas  disponibles}
+\end{figure}
+
+
+\item{} 
+El sistema presenta la evaluación a realizar, a la cual usted debera responder. Ver figura 2.4. Primeramente se presenta los items correspondientes al área, carrera y módulo a la que pertece el docente que se esta evaluando.\\\\
+
+\begin{figure}[htbp]
+\centering
+
+\includegraphics[width=0.800\linewidth]{2.png}
+
+\caption{Encuesta parte 1}
+\end{figure}
+
+
+
+\end{enumerate}
+\begin{enumerate}
+\item {} 
+La Encuesta esta dividida en 3 secciones.\\
+\begin{itemize}
+\item {} 
+\textbf{CAPACIDAD PROFESIONAL.-} La cual evalua el dominio científico técnico del docente dentro del aula. Ver figura 2.5, 2.6.\\\\
+
+\end{itemize}
+\begin{figure}[htbp]
+\centering
+
+\includegraphics[width=0.800\linewidth]{3.png}
+\caption{Encuesta parte 2}
+\end{figure}
+
+\begin{itemize}
+\item {} 
+\textbf{CAPACIDAD PEDAGOGICA.-} La cual evalua el desarrollo del proceso enseñanza-aprendizaje dentro del aula. Ver figura 2.6, 2.7, 2.8, 2.9.\\\\\\\\\\\\\\\\\\
+
+\end{itemize}
+\begin{figure}[htbp]
+\centering
+
+\includegraphics[width=0.900\linewidth]{4.png}
+\caption{Encuesta parte 3}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+
+\includegraphics[width=0.810\linewidth]{5.png}
+\caption{Encuesta parte 4}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\centering
+
+\includegraphics[width=0.800\linewidth]{6.png}
+\caption{Encuesta parte 5}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+
+\includegraphics[width=0.800\linewidth]{7.png}
+\caption{Encuesta parte 6}
+\end{figure}
+
+\begin{itemize}
+\item {} 
+\textbf{PRÁCTICA DE VALORES.-} La cual evalua los valores que posee el docente dentro del aula. Ver Figura 2.10, 2.11.\\\\
+
+\end{itemize}
+\begin{figure}[htbp]
+\centering
+
+\includegraphics[width=0.900\linewidth]{8.png}
+\caption{Encuesta parte 7}
+\end{figure}
+
+
+
+\item {} 
+Una vez que ha terminado de llenar los parámetros de la encuesta, usted podra presionar los siguientes botones:. Ver figura 11.\\
+\begin{itemize}
+\item {} 
+\textbf{Grabar.-} El sistema guarda los datos ingresados de forma correcta.
+
+\item {} 
+\textbf{Borrar.-} El sitema borra todos los datos ingresados en la presente encuesta. Y presentara una nueva encuesta en blanco para que pueda volver a realizar la encuesta.
+
+\item {} 
+\textbf{Cancelar.-} El sistema no guarda los datos ingresados y presentara la pantalla que se muestra en la figura 12.
+
+\end{itemize}
+\begin{figure}[htbp]
+\centering
+
+\includegraphics[width=0.800\linewidth]{9.png}
+\caption{Encuesta parte 8}
+\end{figure}
+
+\end{enumerate}
+
+5. Una vez presionado el botón guardar y si todos los datos fueron ingresados corectamente
+El sistema presentará un mensaje si la encuenta fue realizada y guardada con éxito. Ver figura 12.
 \begin{quote}
 \begin{figure}[htbp]
 \centering
 
-\includegraphics[width=0.750\linewidth]{11.png}
+\includegraphics[width=0.800\linewidth]{10.png}
+\caption{Mensajes aviso de grabación correcta }
 \end{figure}
 
-figura 3.
 \end{quote}
-\end{quote}
-
-
-\section{Responder Evaluación.}
-\label{manualdocente:responder-evaluacion}\begin{enumerate}
+\begin{enumerate}
+\setcounter{enumi}{5}
 \item {} 
-Aquí el sistema presenta la evaluación a realizar, a la cual usted debera responder. Ver figura 4.
+Como paso siguiente al presionar el enlace continuar como se muestra en la figura 13. El sistema muestra la pantalla de las encuestas realizadas con exito. Como observa la encuesta ya se encuentra seleccionada con el visto de encuestas realizadas. Ver figura 13.
 \begin{figure}[htbp]
 \centering
 
-\includegraphics[width=0.500\linewidth]{2.png}
+\includegraphics[width=0.800\linewidth]{11.png}
+\caption{Encuestas realizadas}
 \end{figure}
 
-figura 4.
-
-\item {} 
-El sistema presenta los siguientes items a editar. Ver figura 5,6,7,8,9.
-\begin{itemize}
-\item {} 
-\textbf{Área.-} .
-
-\item {} 
-\textbf{Carrera.-} .
-
-\item {} 
-\textbf{Módulo.-} .
-
-\item {} 
-\textbf{Unidad.-} .
-
-\item {} 
-\textbf{Taller.-} .
-
-\item {} 
-\textbf{Nombre del profesor evaluado.-} .
-
-\end{itemize}
-\begin{figure}[htbp]
-\centering
-
-\includegraphics[width=0.500\linewidth]{3.2.png}
-\end{figure}
-
-figura 5.
-\begin{figure}[htbp]
-\centering
-
-\includegraphics[width=0.500\linewidth]{3.3.png}
-\end{figure}
-
-figura 6.
-\begin{figure}[htbp]
-\centering
-
-\includegraphics[width=0.500\linewidth]{4.png}
-\end{figure}
-
-figura 7.
-\begin{figure}[htbp]
-\centering
-
-\includegraphics[width=0.500\linewidth]{5.png}
-\end{figure}
-
-figura 8.
-\begin{figure}[htbp]
-\centering
-
-\includegraphics[width=0.500\linewidth]{6.png}
-\end{figure}
-
-figura 9.
-
-\item {} 
-Al terminar de responder la encuesta debe presionar el boton grabar como se muestra en la figura 9. El sistema guarda todos los cambios.
-
-\item {} 
-El sistema presentará un mensaje si la encuenta fue realizada y guardada con éxito. Ver figura 10.
-\begin{figure}[htbp]
-\centering
-
-\includegraphics[width=0.500\linewidth]{7.png}
-\end{figure}
-
-figura 10.
 
 \end{enumerate}
 
